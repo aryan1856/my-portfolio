@@ -12,7 +12,7 @@ const Education = () => {
     const duration_ugrad = "Sep 2020 - Aug 2023";
     const duration_pgrad = "Aug 2023 - present";
   return (
-    <div className="flex justify-center items-center flex-col p-4 w-full">
+    <div className="flex justify-center items-center flex-col p-4 w-full sm:min-h-190">
 
     <div className="flex items-center justify-center text-3xl sm:text-4xl md:text-7xl font-[Dancing_Script] tracking-wide font-bold gap-4 p-4">
         <h1>Education</h1>

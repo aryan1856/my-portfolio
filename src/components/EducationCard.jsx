@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer'
 const EducationCard = ({ image, school, degree, duration }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.01, // lower for mobile
+    threshold: 0.01,
   })
 
   return (
