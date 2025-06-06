@@ -1,2 +1,2 @@
 # Project Link
-aryandiwakar.netlify.app
+[Try Out here](aryandiwakar.netlify.app)
