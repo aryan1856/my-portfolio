@@ -1,2 +1,2 @@
 # Project Link
-[Try Out here]([aryandiwakar.netlify.app](https://aryandiwakar.netlify.app/))
+[Try Out here](https://aryandiwakar.netlify.app/)
