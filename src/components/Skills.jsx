@@ -4,7 +4,7 @@ import { DiGithubBadge, DiHtml5, DiCss3, DiJsBadge } from "react-icons/di";
 import { TbCircleLetterC, TbDeviceImacCode } from "react-icons/tb";
 import { FaFacebookSquare, FaGitAlt, FaStackOverflow, FaReact, FaNode } from "react-icons/fa";
 import { FaJava } from "react-icons/fa6";
-import { SiMongodb, SiSpringboot, SiTailwindcss } from "react-icons/si";
+import { SiMongodb, SiSpringboot, SiTailwindcss, SiMysql} from "react-icons/si";
 import { useInView } from 'react-intersection-observer'
 
 
@@ -35,7 +35,8 @@ const Skills = () => {
         { Icon: FaNode, label: 'Node.js' },
         { Icon: SiMongodb, label: 'MongoDB' },
         { Icon: SiSpringboot, label: 'Spring Boot' },
-        { Icon: SiTailwindcss, label: 'Tailwind CSS' }
+        { Icon: SiTailwindcss, label: 'Tailwind CSS' },
+        { Icon : SiMysql, label : 'MySQL'}
     ];
 
     const proficient = "text-xl font-serif hover:scale-125 transition-transform duration-300 cursor-pointer";

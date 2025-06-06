@@ -32,7 +32,7 @@ const ProjectCard = ({ project }) => {
             <div className="text-sm mb-2 text-center">
                 <p>Duration - {project.duration}</p>
             </div>
-            <div className="text-sm text-left w-full px-2">
+            <div className="text-sm text-justify w-full px-2">
                 <p className="font-semibold mb-1">Key Points - </p>
                 {project.info && project.info.map((point, index) => (
                     <p key={index} className="mb-1">• {point}</p>
@@ -56,7 +56,7 @@ const ProjectCard = ({ project }) => {
             {project.repo && (
                 <div className='w-full px-2 mt-2'>
                     <p className='font-semibold mb-1'>
-                        Link to repo -{' '}
+                        Project Link -{' '}
                         <a href={project.repo.startsWith('http') ? project.repo : `https://${project.repo}`} target="_blank" rel="noopener noreferrer" className="underline text-cyan-200 hover:text-cyan-400">
                             GitHub
                         </a>
