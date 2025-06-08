@@ -20,7 +20,7 @@ const Education = () => {
     </div>
 
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-[90%] mt-8">
+      <div className="flex flex-col-reverse justify-center items-center sm:grid sm:grid-cols-1 md:grid-cols-2 gap-6 w-[90%] mt-8">
         <EducationCard image={undergrad_image} school={school_ugrad} degree={degree_ugrad} duration={duration_ugrad}/>
         <EducationCard image={postgrad_image} school={school_pgrad} degree={degree_pgrad} duration={duration_pgrad}/>
       </div>
